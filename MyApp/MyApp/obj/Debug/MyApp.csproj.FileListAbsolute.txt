@@ -1,0 +1,8 @@
+C:\Users\cheng\Desktop\EC447\labs\MyApp\MyApp\bin\Debug\MyApp.exe.config
+C:\Users\cheng\Desktop\EC447\labs\MyApp\MyApp\bin\Debug\MyApp.exe
+C:\Users\cheng\Desktop\EC447\labs\MyApp\MyApp\bin\Debug\MyApp.pdb
+C:\Users\cheng\Desktop\EC447\labs\MyApp\MyApp\obj\Debug\MyApp.csproj.AssemblyReference.cache
+C:\Users\cheng\Desktop\EC447\labs\MyApp\MyApp\obj\Debug\MyApp.csproj.SuggestedBindingRedirects.cache
+C:\Users\cheng\Desktop\EC447\labs\MyApp\MyApp\obj\Debug\MyApp.csproj.CoreCompileInputs.cache
+C:\Users\cheng\Desktop\EC447\labs\MyApp\MyApp\obj\Debug\MyApp.exe
+C:\Users\cheng\Desktop\EC447\labs\MyApp\MyApp\obj\Debug\MyApp.pdb
