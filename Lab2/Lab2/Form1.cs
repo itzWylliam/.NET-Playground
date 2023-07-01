@@ -104,7 +104,7 @@ namespace Lab2
             {
                 for (int i = 0; i < coordinates.Count; i++)
                 {
-                    for (int k = 0; k < coordinates.Count; k++)
+                    for (int k = i+1; k < coordinates.Count; k++)
                     {
                         if (i != k)
                         {
