@@ -46,6 +46,8 @@ namespace Lab4
             initializeMatrix();
             this.MouseDown += new MouseEventHandler(this.mouseDown);
             InitializeComponent();
+            MinimumSize = new Size(600, 600);
+            StartPosition = FormStartPosition.CenterScreen;
         }
 
         private void PaintBoard(object sender, PaintEventArgs e)
@@ -80,6 +82,11 @@ namespace Lab4
                 }
             }
             
+        }
+
+        private void Transform(Graphics g)
+        {
+            g.ScaleTransform(1000, 1000);
         }
 
         private void mouseDown(object sender, MouseEventArgs e)
@@ -266,6 +273,16 @@ namespace Lab4
                 if (changedCellIndex[0] + i < 8 && changedCellIndex[1] + i < 8)
                 {
                     validator[changedCellIndex[0] + i, changedCellIndex[1] + i] = newStatus;
+                }
+
+                if (changedCellIndex[0] + i < 8 && changedCellIndex[1] - i >= 0)
+                {
+                    validator[changedCellIndex[0] + i, changedCellIndex[1] - i] = newStatus;
+                }
+
+                if (changedCellIndex[0] - i >= 0 && changedCellIndex[1] + i < 8)
+                {
+                    validator[changedCellIndex[0] - i, changedCellIndex[1] + i] = newStatus;
                 }
 
                 i++;

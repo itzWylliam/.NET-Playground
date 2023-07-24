@@ -35,7 +35,7 @@
             // 
             // ClearButton
             // 
-            this.ClearButton.Location = new System.Drawing.Point(176, 64);
+            this.ClearButton.Location = new System.Drawing.Point(287, 65);
             this.ClearButton.Name = "ClearButton";
             this.ClearButton.Size = new System.Drawing.Size(75, 23);
             this.ClearButton.TabIndex = 0;
@@ -46,7 +46,7 @@
             // HintCheckBox
             // 
             this.HintCheckBox.AutoSize = true;
-            this.HintCheckBox.Location = new System.Drawing.Point(91, 66);
+            this.HintCheckBox.Location = new System.Drawing.Point(180, 67);
             this.HintCheckBox.Name = "HintCheckBox";
             this.HintCheckBox.Size = new System.Drawing.Size(52, 20);
             this.HintCheckBox.TabIndex = 1;
@@ -57,7 +57,7 @@
             // ResultTextLabel
             // 
             this.ResultTextLabel.AutoSize = true;
-            this.ResultTextLabel.Location = new System.Drawing.Point(314, 67);
+            this.ResultTextLabel.Location = new System.Drawing.Point(395, 68);
             this.ResultTextLabel.Name = "ResultTextLabel";
             this.ResultTextLabel.Size = new System.Drawing.Size(203, 16);
             this.ResultTextLabel.TabIndex = 2;
