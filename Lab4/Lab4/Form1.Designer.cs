@@ -41,6 +41,7 @@
             this.ClearButton.TabIndex = 0;
             this.ClearButton.Text = "Clear";
             this.ClearButton.UseVisualStyleBackColor = true;
+            this.ClearButton.Click += new System.EventHandler(this.ClearButton_Click);
             // 
             // HintCheckBox
             // 
@@ -51,6 +52,7 @@
             this.HintCheckBox.TabIndex = 1;
             this.HintCheckBox.Text = "Hint";
             this.HintCheckBox.UseVisualStyleBackColor = true;
+            this.HintCheckBox.CheckedChanged += new System.EventHandler(this.HintCheckBox_CheckedChanged);
             // 
             // ResultTextLabel
             // 

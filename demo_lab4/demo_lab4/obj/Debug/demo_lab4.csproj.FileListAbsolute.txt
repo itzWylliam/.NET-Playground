@@ -1,0 +1,11 @@
+C:\Users\cheng\Desktop\EC447\labs\demo_lab4\demo_lab4\obj\Debug\demo_lab4.csproj.AssemblyReference.cache
+C:\Users\cheng\Desktop\EC447\labs\demo_lab4\demo_lab4\obj\Debug\demo_lab4.csproj.SuggestedBindingRedirects.cache
+C:\Users\cheng\Desktop\EC447\labs\demo_lab4\demo_lab4\obj\Debug\demo_lab4.Form1.resources
+C:\Users\cheng\Desktop\EC447\labs\demo_lab4\demo_lab4\obj\Debug\demo_lab4.Properties.Resources.resources
+C:\Users\cheng\Desktop\EC447\labs\demo_lab4\demo_lab4\obj\Debug\demo_lab4.csproj.GenerateResource.cache
+C:\Users\cheng\Desktop\EC447\labs\demo_lab4\demo_lab4\obj\Debug\demo_lab4.csproj.CoreCompileInputs.cache
+C:\Users\cheng\Desktop\EC447\labs\demo_lab4\demo_lab4\bin\Debug\demo_lab4.exe.config
+C:\Users\cheng\Desktop\EC447\labs\demo_lab4\demo_lab4\bin\Debug\demo_lab4.exe
+C:\Users\cheng\Desktop\EC447\labs\demo_lab4\demo_lab4\bin\Debug\demo_lab4.pdb
+C:\Users\cheng\Desktop\EC447\labs\demo_lab4\demo_lab4\obj\Debug\demo_lab4.exe
+C:\Users\cheng\Desktop\EC447\labs\demo_lab4\demo_lab4\obj\Debug\demo_lab4.pdb
