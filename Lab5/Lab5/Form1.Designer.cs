@@ -36,9 +36,10 @@
             // titleText
             // 
             this.titleText.Font = new System.Drawing.Font("Microsoft Sans Serif", 27.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.titleText.Location = new System.Drawing.Point(35, 28);
+            this.titleText.Location = new System.Drawing.Point(47, 34);
+            this.titleText.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.titleText.Name = "titleText";
-            this.titleText.Size = new System.Drawing.Size(457, 50);
+            this.titleText.Size = new System.Drawing.Size(609, 62);
             this.titleText.TabIndex = 0;
             this.titleText.Text = "Find Numeric Palindromes";
             this.titleText.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -46,17 +47,19 @@
             // resultListView
             // 
             this.resultListView.HideSelection = false;
-            this.resultListView.Location = new System.Drawing.Point(120, 123);
+            this.resultListView.Location = new System.Drawing.Point(160, 151);
+            this.resultListView.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.resultListView.Name = "resultListView";
-            this.resultListView.Size = new System.Drawing.Size(122, 127);
+            this.resultListView.Size = new System.Drawing.Size(161, 155);
             this.resultListView.TabIndex = 1;
             this.resultListView.UseCompatibleStateImageBehavior = false;
             // 
             // GenerateButton
             // 
-            this.GenerateButton.Location = new System.Drawing.Point(308, 174);
+            this.GenerateButton.Location = new System.Drawing.Point(411, 214);
+            this.GenerateButton.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.GenerateButton.Name = "GenerateButton";
-            this.GenerateButton.Size = new System.Drawing.Size(75, 23);
+            this.GenerateButton.Size = new System.Drawing.Size(100, 28);
             this.GenerateButton.TabIndex = 2;
             this.GenerateButton.Text = "Generate";
             this.GenerateButton.UseVisualStyleBackColor = true;
@@ -64,12 +67,13 @@
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(532, 322);
+            this.ClientSize = new System.Drawing.Size(709, 396);
             this.Controls.Add(this.GenerateButton);
             this.Controls.Add(this.resultListView);
             this.Controls.Add(this.titleText);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "Form1";
             this.Text = "Palindromes - Wai Yuen Cheng";
             this.ResumeLayout(false);
