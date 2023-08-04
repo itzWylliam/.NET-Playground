@@ -25,7 +25,14 @@ namespace Lab5
         {
             try
             {
-                if (Convert.ToInt32(this.countTextBox.Text) <= 0 && Convert.ToInt32(this.startingIntTextBox.Text) <= 0)
+                int currentCount = Convert.ToInt32(this.countTextBox.Text);
+                int currentStartInt = Convert.ToInt32(this.startingIntTextBox.Text);
+
+                if (currentCount <= 0 
+                    || currentStartInt <= 0 
+                    || currentCount > 100 
+                    || currentStartInt > 1000000000
+                   )
                 {
                     showError();
                 }

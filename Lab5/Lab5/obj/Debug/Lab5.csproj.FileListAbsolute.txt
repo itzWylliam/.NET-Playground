@@ -10,3 +10,15 @@ C:\Users\cheng\Desktop\EC447\EC447_lab\Lab5\Lab5\obj\Debug\Lab5.SettingDialog.re
 C:\Users\cheng\Desktop\EC447\EC447_lab\Lab5\Lab5\obj\Debug\Lab5.exe
 C:\Users\cheng\Desktop\EC447\EC447_lab\Lab5\Lab5\obj\Debug\Lab5.pdb
 C:\Users\cheng\Desktop\EC447\EC447_lab\Lab5\Lab5\obj\Debug\Lab5.Form1.resources
+C:\Users\cheng\OneDrive\Desktop\EC447_lab\Lab5\Lab5\bin\Debug\Lab5.exe.config
+C:\Users\cheng\OneDrive\Desktop\EC447_lab\Lab5\Lab5\bin\Debug\Lab5.exe
+C:\Users\cheng\OneDrive\Desktop\EC447_lab\Lab5\Lab5\bin\Debug\Lab5.pdb
+C:\Users\cheng\OneDrive\Desktop\EC447_lab\Lab5\Lab5\obj\Debug\Lab5.csproj.AssemblyReference.cache
+C:\Users\cheng\OneDrive\Desktop\EC447_lab\Lab5\Lab5\obj\Debug\Lab5.csproj.SuggestedBindingRedirects.cache
+C:\Users\cheng\OneDrive\Desktop\EC447_lab\Lab5\Lab5\obj\Debug\Lab5.Form1.resources
+C:\Users\cheng\OneDrive\Desktop\EC447_lab\Lab5\Lab5\obj\Debug\Lab5.Properties.Resources.resources
+C:\Users\cheng\OneDrive\Desktop\EC447_lab\Lab5\Lab5\obj\Debug\Lab5.SettingDialog.resources
+C:\Users\cheng\OneDrive\Desktop\EC447_lab\Lab5\Lab5\obj\Debug\Lab5.csproj.GenerateResource.cache
+C:\Users\cheng\OneDrive\Desktop\EC447_lab\Lab5\Lab5\obj\Debug\Lab5.csproj.CoreCompileInputs.cache
+C:\Users\cheng\OneDrive\Desktop\EC447_lab\Lab5\Lab5\obj\Debug\Lab5.exe
+C:\Users\cheng\OneDrive\Desktop\EC447_lab\Lab5\Lab5\obj\Debug\Lab5.pdb

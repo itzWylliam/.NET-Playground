@@ -15,10 +15,11 @@ namespace Lab5
 
         List<int> palList = new List<int>();
 
-        SettingDialog settingDialog = new SettingDialog();
+        SettingDialog settingDialog;
 
         public Form1()
         {
+            settingDialog = new SettingDialog();
             InitializeComponent();
         }
 
@@ -36,13 +37,12 @@ namespace Lab5
                 palList.Clear();
             }
 
-            this.resultListView.Items.Clear();
+            this.resultListBox.Items.Clear();
             foreach (int i in palList) 
             {
-                ListViewItem item = new ListViewItem(i.ToString());
-                this.resultListView.Items.Add(item);
+                this.resultListBox.Items.Add(i);
             }
-            Console.WriteLine(this.resultListView.Items.Count);
+            Console.WriteLine(this.resultListBox.Items.Count);
         }
 
         private List<int> findPalindrome(int start, int count)
@@ -52,16 +52,28 @@ namespace Lab5
             List<int> result = new List<int>();
             String currentEval = "";
 
-            while (currentNumOfPalindrome == count)
+            Console.WriteLine("Current parameters:");
+            Console.WriteLine("\t# of palindromes needed: " + count);
+            Console.WriteLine("\t# of palindromes: " + currentNumOfPalindrome);
+            Console.WriteLine("\tstart int: " + currentInt);
+
+
+            while (currentNumOfPalindrome < count)
             {
                 currentEval = currentInt.ToString();
-                if (currentEval.ToCharArray().Equals(currentEval.ToCharArray().Reverse()))
+
+                Console.WriteLine("current evaluated string: " + currentEval);
+                Console.WriteLine("in array: " + currentEval.ToString());
+                Console.WriteLine("in reversed array: " + reverseString(currentEval));
+
+                if (currentEval.Equals(reverseString(currentEval)))
                 {
                     Console.WriteLine("Adding");
                     result.Add(currentInt);
-                    currentInt++;
                     currentNumOfPalindrome++;
                 }
+                currentInt++;
+
             }
 
             Console.WriteLine("Result Palindrome: ");
@@ -69,6 +81,13 @@ namespace Lab5
                 Console.WriteLine("\t" + i.ToString());
             }
             return result;
+        }
+
+        private String reverseString(String s)
+        {
+            char[] charArray = s.ToCharArray();
+            Array.Reverse(charArray);
+            return new String(charArray);
         }
     }
 }
