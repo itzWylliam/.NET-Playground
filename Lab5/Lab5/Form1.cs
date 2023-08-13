@@ -20,6 +20,7 @@ namespace Lab5
         public Form1()
         {
             settingDialog = new SettingDialog();
+            this.CenterToScreen();
             InitializeComponent();
         }
 

@@ -18,6 +18,7 @@ namespace Lab5
 
         public SettingDialog()
         {
+            this.CenterToParent();
             InitializeComponent();
         }
 
@@ -52,6 +53,10 @@ namespace Lab5
 
         private void cancelButton_Click(object sender, EventArgs e)
         {
+            count = 0;
+            startingInt = 1;
+            this.countTextBox.Text = "";
+            this.startingIntTextBox.Text = "";
             DialogResult = DialogResult.Cancel;
         }
 
